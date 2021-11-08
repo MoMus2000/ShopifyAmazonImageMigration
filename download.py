@@ -8,7 +8,7 @@ from PIL import Image
 df = pd.read_csv("/Users/a./Downloads/product_variant (1).csv")
 count =0 
 output = pd.DataFrame()
-api = 'http://localhost:5000/v1/admin/document/image/product'
+api = ''
 header = {"Authorization":}
 
 
